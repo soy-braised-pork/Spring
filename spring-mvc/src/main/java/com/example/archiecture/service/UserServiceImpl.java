@@ -30,9 +30,9 @@ public class UserServiceImpl {
     /**
      * 在业务层面控制不重名，不用在数据库改动
      */
-    public boolean register(User user){
-        //用户重名校验
-        User userByName=findUserByName(user.getName()); //先去按用户名查找一个用户
-        if (userByName != null && userByName.getName() != null && )
-    }
+//    public boolean register(User user){
+//        //用户重名校验
+//        User userByName=findUserByName(user.getName()); //先去按用户名查找一个用户
+//        if (userByName != null && userByName.getName() != null && )
+//    }
 }
