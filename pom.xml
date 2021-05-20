@@ -24,6 +24,7 @@
         <module>spring-mvc</module>
         <module>spring-aop</module>
         <module>spring-01-ioc1</module>
+        <module>spring-02-hellospring</module>
     </modules>
 
 
