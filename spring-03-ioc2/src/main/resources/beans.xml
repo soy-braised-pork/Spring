@@ -4,6 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
          https://www.springframework.org/schema/beans/spring-beans.xsd">
 
+
     <bean id="userT" class="com.zlx.easy.UserT">
 <!--        注入属性-->
         <property name="name" value="小天使"/>
@@ -20,6 +21,17 @@
         <constructor-arg name="name" value="宝宝"/>
     </bean>
 
+
+    <!--别名-->
+    <alias name="user" alias="abc"/>
+
+
+    <!--id: bean的唯一标识符，也就是相当于对象名
+     class: bean对象所对应的全限定名  包名+类型
+     name: 别名，可以同时多个别名-->
+    <bean id="userT" class="com.zlx.easy.UserT" name="userT2 u;u2 T" >
+        <property name="name" value="1"/>
+    </bean>
 
 
 </beans>
