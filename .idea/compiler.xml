@@ -29,6 +29,7 @@
       <module name="spring-01-ioc1" options="-parameters" />
       <module name="spring-02-hellospring" options="-parameters" />
       <module name="spring-03-ioc2" options="-parameters" />
+      <module name="spring-04-di" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="spring-zlx" options="" />
