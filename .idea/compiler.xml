@@ -9,15 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-03-ioc2" />
         <module name="spring-mvc" />
-        <module name="spring-aop" />
         <module name="spring-02-hellospring" />
         <module name="spring-01-ioc1" />
-      </profile>
-      <profile name="Annotation profile for demo" enabled="true">
-        <sourceOutputDir name="spring-aop/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="spring-aop/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="spring-zlx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,7 +29,7 @@
       <module name="spring-03-ioc2" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
-      <module name="spring-zlx" options="-parameters" />
+      <module name="spring-zlx" options="" />
     </option>
   </component>
 </project>

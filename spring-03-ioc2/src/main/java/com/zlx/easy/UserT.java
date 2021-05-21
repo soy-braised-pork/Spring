@@ -1,17 +1,14 @@
 package com.zlx.easy;
 
-public class User {
+public class UserT {
     private String name;
 
-//    //使用无参构造创建对象，默认
-//    public User(){
-//        System.out.println("User的无参构造！");
-//    }
-
-    //使用有参构造创建对象
-    public User(String name){
-        this.name=name;
+    //使用无参构造创建对象，默认
+    public UserT(){
+        System.out.println("UserT的无参构造！");
     }
+
+
 
     public String getName() {
         return name;
@@ -26,3 +23,4 @@ public class User {
         System.out.println("name="+name);
     }
 }
+
