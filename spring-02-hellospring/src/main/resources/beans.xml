@@ -6,10 +6,16 @@
 
 
     <!--使用Spring来创建对象，在Spring中这些都称为Bean
-        bean = 对象  new Hello();
+        类型 变量名 = new 类型();
+        Hello hello=new Hello();
+
+        bean  对象 = new Hello();
+        id == 变量名    class(全路径) == new的对象
+        property == 给对象中的属性设置一个值
+        控制反转
     -->
     <bean id="hello" class="com.hellospring.zlx.Hello">
-        <property name="str" value="Spring"/>
+        <property name="str" value="String"/>
     </bean>
 
 

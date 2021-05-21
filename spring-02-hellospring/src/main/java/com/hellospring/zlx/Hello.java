@@ -1,5 +1,6 @@
 package com.hellospring.zlx;
 
+//叶子：表示已被spring托管
 public class Hello {
     private String str;
 
@@ -7,6 +8,7 @@ public class Hello {
         return str;
     }
 
+    //set 依赖注入
     public void setStr(String str) {
         this.str = str;
     }
