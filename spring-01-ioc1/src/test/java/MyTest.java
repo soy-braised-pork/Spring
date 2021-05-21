@@ -27,5 +27,9 @@ public class MyTest {
         //拿到容器，需要什么，get什么
         UserServiceImpl userServiceImpl = (UserServiceImpl) context.getBean("UserServiceImpl");
         userServiceImpl.getUser();
+
+        //拿到容器，需要什么，get什么
+        UserServiceImpl userServiceImpl1 = (UserServiceImpl) context.getBean("UserServiceImpl1");
+        userServiceImpl1.getUser();
     }
 }

@@ -11,9 +11,15 @@
         <property name="userDao" ref="mysqlImpl"/>
     </bean>
 
+    <bean id="UserServiceImpl1" class="com.easy.zlx.service.UserServiceImpl">
+        <property name="userDao" ref="redisImpl"/>
+    </bean>
+
     <!--
     ref：引用spring容器中创建好的对象
     value：具体的值，基本数据类型
     -->
+
+
 
 </beans>
