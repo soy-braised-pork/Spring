@@ -1,8 +1,13 @@
 package com.zlx.easy;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class People {
 
+    //在类
+    @Autowired
     private Cat cat;
+
     private Dog dog;
 
     private String name;
@@ -28,7 +33,7 @@ public class People {
     public Dog getDog() {
         return dog;
     }
-
+    @Autowired
     public void setDog(Dog dog) {
         this.dog = dog;
     }
