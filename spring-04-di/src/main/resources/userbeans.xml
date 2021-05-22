@@ -14,7 +14,7 @@
     <bean id="user" class="com.zlx.easy.User" p:age="11" p:username="zlx"/>
 
     <!--c命名空间注入，通过构造器注入：construct-args-->
-    <bean id="user1" class="com.zlx.easy.User" c:age="12" c:username="zzz"/>
+    <bean id="user1" class="com.zlx.easy.User" c:age="12" c:username="zzz" scope="prototype"/>
 
 
 </beans>

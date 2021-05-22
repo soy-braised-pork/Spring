@@ -14,7 +14,7 @@ public class MyTest {
         User user1 = (User) context.getBean("user");
         User user2= (User) context.getBean("abc");
         user.show();
-        //spring容器，取的是同一个对象  对象池
+        //spring容器，取的是同一个对象  单例模式
         System.out.println(user==user1);
         System.out.println(user.equals(user1));
         System.out.println(user2.getName());  //别名
