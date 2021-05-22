@@ -80,15 +80,15 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", address=" + address +
-                ", books=" + Arrays.toString(books) +
-                ", hobbys=" + hobbys +
-                ", card=" + card +
-                ", games=" + games +
-                ", wife='" + wife + '\'' +
-                ", info=" + info +
+        return "Student{" +'\n'+
+                " name='" + name + '\'' +'\n'+
+                " address=" + address.toString() + '\n'+
+                " books=" + Arrays.toString(books) +'\n'+
+                " hobbys=" + hobbys +'\n'+
+                " card=" + card +'\n'+
+                " games=" + games +'\n'+
+                " wife='" + wife + '\'' +'\n'+
+                " info=" + info +'\n'+
                 '}';
     }
 }
