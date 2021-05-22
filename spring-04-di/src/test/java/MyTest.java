@@ -19,7 +19,9 @@ public class MyTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("userbeans.xml");
         User user = context.getBean("user", User.class);
         User user1 = (User) context.getBean("user1");
+        // singleton 单例模式  有并发问题，适合单线程  spring默认
         // prototype 原型模式  每次从容器中get的时候，都会产生一个新对象
+        // 缺：浪费资源     适合多线程
         System.out.println(user==user1);
         System.out.println(user.hashCode()+"  "+user1.hashCode());
         System.out.println(user);
