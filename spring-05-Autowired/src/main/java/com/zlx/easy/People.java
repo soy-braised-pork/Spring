@@ -32,11 +32,19 @@ public class People {
     public Dog getDog() {
         return dog;
     }
+
     @Autowired
     public void setDog(Dog dog) {
         this.dog = dog;
     }
 
+    public Cat getCat() {
+        return cat;
+    }
+
+    public void setCat(Cat cat) {
+        this.cat = cat;
+    }
 
 
     @Override
@@ -47,4 +55,6 @@ public class People {
                 ", name='" + name + '\'' +
                 '}';
     }
+
+
 }

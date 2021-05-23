@@ -10,6 +10,8 @@ public class TestMain {
 
         TestEntity testEntity=context.getBean("testEntity",TestEntity.class);
 
+//        testEntity.setMsg("sss");
+
         System.out.println(testEntity.getMsg());
     }
 }
