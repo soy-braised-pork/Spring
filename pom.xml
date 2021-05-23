@@ -31,6 +31,8 @@
         <module>server</module>
         <module>client</module>
         <module>api</module>
+        <module>framework</module>
+        <module>database</module>
     </modules>
 
 

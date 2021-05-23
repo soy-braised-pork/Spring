@@ -9,26 +9,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring" />
         <module name="server" />
+        <module name="database" />
         <module name="spring-mvc" />
+        <module name="framework" />
         <module name="spring-02-hellospring" />
         <module name="spring-04-di" />
         <module name="spring-03-ioc2" />
         <module name="client" />
-        <module name="spring-aop" />
         <module name="api" />
         <module name="spring-01-ioc1" />
         <module name="spring-05-autowired" />
-      </profile>
-      <profile name="Annotation profile for demo" enabled="true">
-        <sourceOutputDir name="spring-aop/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="spring-aop/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="spring-zlx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="8" />
       <module name="client" target="8" />
+      <module name="database" target="8" />
+      <module name="framework" target="8" />
       <module name="server" target="8" />
       <module name="spring" target="8" />
       <module name="spring-01-ioc1" target="8" />
@@ -45,6 +42,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api" options="-parameters" />
       <module name="client" options="-parameters" />
+      <module name="database" options="-parameters" />
+      <module name="framework" options="-parameters" />
       <module name="server" options="-parameters" />
       <module name="spring" options="-parameters" />
       <module name="spring-01-ioc1" options="-parameters" />
@@ -54,7 +53,7 @@
       <module name="spring-05-autowired" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
-      <module name="spring-zlx" options="-parameters" />
+      <module name="spring-zlx" options="" />
     </option>
   </component>
 </project>

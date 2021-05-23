@@ -1,0 +1,26 @@
+package cpool;
+
+import java.sql.Connection;
+
+public interface ConnectionPool {
+
+    /**
+     * 连接池初始化
+     */
+    void init();
+
+    /**
+     * 获取一个连接
+     */
+    Connection getConnection();
+
+    /**
+     * 释放一个连接
+     */
+    void releaswConnection(Connection connection);
+
+    /**
+     * 销毁连接池
+     */
+    void destroy();
+}
