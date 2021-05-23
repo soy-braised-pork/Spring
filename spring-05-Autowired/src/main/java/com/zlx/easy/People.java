@@ -1,17 +1,23 @@
 package com.zlx.easy;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.lang.Nullable;
 
 public class People {
 
-    //在类
-    @Autowired
+    //在属性、set方式上使用
+    @Autowired  //不需要get set
     private Cat cat;
 
     private Dog dog;
 
     private String name;
 
+
+    //@Nullable 标记字段，此字段可以为空
+//    public People(@Nullable String name){
+//        this.name=name;
+//    }
 
 
     public String getName() {
@@ -22,13 +28,6 @@ public class People {
         this.name = name;
     }
 
-    public Cat getCat() {
-        return cat;
-    }
-
-    public void setCat(Cat cat) {
-        this.cat = cat;
-    }
 
     public Dog getDog() {
         return dog;

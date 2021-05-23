@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring" />
         <module name="spring-mvc" />
         <module name="spring-02-hellospring" />
         <module name="spring-04-di" />
@@ -23,6 +24,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring" target="8" />
       <module name="spring-01-ioc1" target="8" />
       <module name="spring-02-hellospring" target="8" />
       <module name="spring-03-ioc2" target="8" />
@@ -35,6 +37,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring" options="-parameters" />
       <module name="spring-01-ioc1" options="-parameters" />
       <module name="spring-02-hellospring" options="-parameters" />
       <module name="spring-03-ioc2" options="-parameters" />
