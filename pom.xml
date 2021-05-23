@@ -28,6 +28,9 @@
         <module>spring-03-ioc2</module>
         <module>spring-05-Autowired</module>
         <module>spring</module>
+        <module>server</module>
+        <module>client</module>
+        <module>api</module>
     </modules>
 
 

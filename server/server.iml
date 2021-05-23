@@ -11,14 +11,7 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration>
-        <fileset id="fileset" name="BeansTest" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/BeansTest.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/AnnotationTest.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/DIBeansTest.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/AnnotationBeansTest.xml</file>
-        </fileset>
-      </configuration>
+      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
@@ -32,6 +25,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="api" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jdbc:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-jdbc:2.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-relational:2.1.2" level="project" />

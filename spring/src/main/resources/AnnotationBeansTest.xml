@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="student" class="com.zlx.easy.springannotation.Student">
+    </bean>
+
+    <bean id="clazz" class="com.zlx.easy.springannotation.Clazz">
+
+    </bean>
+
+    <!--
+    隐式地自动向Spring容器注册4个BeanPostProcessor
+      AutowiredAnnotationBeanPostProcessor
+      CommonAnnotationBeanPostProcessor
+      PersistenceAnnotationBeanPostProcessor
+      RequiredAnnotationBeanPostProcessor
+    -->
+    <context:annotation-config/>
+
+</beans>
