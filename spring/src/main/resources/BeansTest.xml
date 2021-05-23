@@ -5,8 +5,13 @@
 
     <!--管理对象-->
     <bean id="testEntity" class="com.zlx.easy.springcore.TestEntity">
-        <!--属性赋值-->
-        <property name="msg" value="Hello World!"/>
+        <!--属性赋值 以set方法为基础-->
+        <constructor-arg index="0" value="ggg"/>
+<!--        <property name="msg" value="Hello World!"/>-->
+    </bean>
+
+    <bean id="testEntity1" class="com.zlx.easy.springcore.TestEntity">
+        <property name="msg" value="aaa"/>
     </bean>
 
     <!--在对象初始化时，执行属性后面标识的方法-->
