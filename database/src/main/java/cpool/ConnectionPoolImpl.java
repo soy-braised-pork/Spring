@@ -52,6 +52,10 @@ public class ConnectionPoolImpl implements ConnectionPool {
         return null;
     }
 
+
+    /**
+     *释放一个连接
+     */
     @Override
     public void releaswConnection(Connection connection) {
 
