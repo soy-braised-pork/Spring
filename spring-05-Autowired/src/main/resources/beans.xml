@@ -31,8 +31,11 @@
     <!--开启注解的支持，报错：空指针异常-->
     <context:annotation-config/>
 
-    <bean id="cat" class="com.zlx.easy.Cat"/>
+    <bean id="cat11" class="com.zlx.easy.Cat"/>
+    <bean id="cat1" class="com.zlx.easy.Cat"/>
     <bean id="dog" class="com.zlx.easy.Dog"/>
+    <bean id="dog1" class="com.zlx.easy.Dog"/>
+    <bean id="dog2" class="com.zlx.easy.Dog"/>
 
     <bean id="people" class="com.zlx.easy.People"/>
 
