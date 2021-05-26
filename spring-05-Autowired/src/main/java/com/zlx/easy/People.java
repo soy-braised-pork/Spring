@@ -6,9 +6,19 @@ import org.springframework.lang.Nullable;
 
 import javax.annotation.Resource;
 
+/**
+ * @Resource 和 @Autowired的区别
+ * 都是用来自动装配，都可以放在属性字段上
+ * @Autowired 通过byname来实现
+ * @Resource 默认通过byname的方式实现，如果找不到，则通过byType
+ *执行顺序不同
+ *
+ */
+
+
 public class People {
 
-    /**
+    /*
      * 自动装配
      * 如果@Autowired自动装配的环境比较复杂，自动装配无法通过@Autowired完成的时候，
      * 使用@Qualifier(value="xxx")去配置@Autowired的使用，指定一个唯一的bean对象注入
@@ -22,7 +32,7 @@ public class People {
 
     //java
     //先通过名字去查找，名字找不到再适配类型，最后不行就报错
-    @Resource
+    @Resource(name = "dog1")
     private Dog dog;
 
     private String name;
