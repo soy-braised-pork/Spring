@@ -31,7 +31,10 @@
     <!--开启注解的支持，报错：空指针异常-->
     <context:annotation-config/>
 
-    <bean id="cat11" class="com.zlx.easy.Cat"/>
+    <bean id="cat11" class="com.zlx.easy.Cat">
+<!--        <property name="cat11" value="maiao"/>  根据set方法查找-->
+    </bean>
+
     <bean id="cat1" class="com.zlx.easy.Cat"/>
     <bean id="dog" class="com.zlx.easy.Dog"/>
     <bean id="dog1" class="com.zlx.easy.Dog"/>

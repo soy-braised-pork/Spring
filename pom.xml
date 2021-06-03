@@ -33,6 +33,8 @@
         <module>api</module>
         <module>framework</module>
         <module>database</module>
+        <module>spring-06-anno</module>
+        <module>spring-07-appconfig</module>
     </modules>
 
 

@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring" />
         <module name="server" />
-        <module name="database" />
         <module name="spring-mvc" />
-        <module name="framework" />
         <module name="spring-02-hellospring" />
         <module name="spring-04-di" />
+        <module name="spring-05-autowired" />
+        <module name="spring" />
+        <module name="database" />
+        <module name="framework" />
+        <module name="spring-06-anno" />
         <module name="spring-03-ioc2" />
         <module name="client" />
         <module name="api" />
         <module name="spring-01-ioc1" />
-        <module name="spring-05-autowired" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +34,7 @@
       <module name="spring-03-ioc2" target="8" />
       <module name="spring-04-di" target="8" />
       <module name="spring-05-autowired" target="8" />
+      <module name="spring-06-anno" target="8" />
       <module name="spring-aop" target="1.8" />
       <module name="spring-mvc" target="1.8" />
       <module name="spring-zlx" target="1.8" />
@@ -51,6 +53,7 @@
       <module name="spring-03-ioc2" options="-parameters" />
       <module name="spring-04-di" options="-parameters" />
       <module name="spring-05-autowired" options="-parameters" />
+      <module name="spring-06-anno" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="spring-zlx" options="" />
