@@ -18,6 +18,7 @@
         <module name="spring-06-anno" />
         <module name="spring-03-ioc2" />
         <module name="client" />
+        <module name="spring-07-appconfig" />
         <module name="api" />
         <module name="spring-01-ioc1" />
       </profile>
@@ -35,6 +36,7 @@
       <module name="spring-04-di" target="8" />
       <module name="spring-05-autowired" target="8" />
       <module name="spring-06-anno" target="8" />
+      <module name="spring-07-appconfig" target="8" />
       <module name="spring-aop" target="1.8" />
       <module name="spring-mvc" target="1.8" />
       <module name="spring-zlx" target="1.8" />
@@ -54,6 +56,7 @@
       <module name="spring-04-di" options="-parameters" />
       <module name="spring-05-autowired" options="-parameters" />
       <module name="spring-06-anno" options="-parameters" />
+      <module name="spring-07-appconfig" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="spring-zlx" options="" />
