@@ -3,6 +3,11 @@ package com.zlx.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * 配置类
+ */
+
+
 @Configuration //被spring托管，注册到容器中 == component
 //代表这是一个配置类，和bean.xml是一样的
 public class MyConfig {

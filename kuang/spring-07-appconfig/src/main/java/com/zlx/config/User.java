@@ -17,10 +17,26 @@ public class User {
         this.age = age;
     }
 
+
+    private String name;
+
+
+
+    public String getName() {
+        return name;
+    }
+
+    @Value("zlx")
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
     @Override
     public String toString() {
         return "User{" +
                 "age=" + age +
+                ", name='" + name + '\'' +
                 '}';
     }
 }

@@ -11,5 +11,6 @@ public class MyTest {
 //       User getUser= (User) context.getBean("getUser");
         User getUser= (User) context.getBean("user");
        System.out.println(getUser.getAge());
+        System.out.println(getUser.getName());
     }
 }

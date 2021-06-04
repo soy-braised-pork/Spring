@@ -12,6 +12,7 @@
         <module name="spring-02-hellospring" />
         <module name="spring-04-di" />
         <module name="spring-05-autowired" />
+        <module name="spring-08-proxy" />
         <module name="spring" />
         <module name="database" />
         <module name="framework" />
@@ -37,6 +38,7 @@
       <module name="spring-05-autowired" target="8" />
       <module name="spring-06-anno" target="8" />
       <module name="spring-07-appconfig" target="8" />
+      <module name="spring-08-proxy" target="8" />
       <module name="spring-aop" target="1.8" />
       <module name="spring-mvc" target="1.8" />
       <module name="spring-zlx" target="1.8" />
@@ -57,6 +59,7 @@
       <module name="spring-05-autowired" options="-parameters" />
       <module name="spring-06-anno" options="-parameters" />
       <module name="spring-07-appconfig" options="-parameters" />
+      <module name="spring-08-proxy" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="spring-zlx" options="" />
