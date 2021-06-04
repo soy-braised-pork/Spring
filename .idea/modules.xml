@@ -8,13 +8,13 @@
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-01-ioc1/spring-01-ioc1.iml" filepath="$PROJECT_DIR$/spring-01-ioc1/spring-01-ioc1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-02-hellospring/spring-02-hellospring.iml" filepath="$PROJECT_DIR$/spring-02-hellospring/spring-02-hellospring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-03-ioc2/spring-03-ioc2.iml" filepath="$PROJECT_DIR$/spring-03-ioc2/spring-03-ioc2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-04-di/spring-04-di.iml" filepath="$PROJECT_DIR$/spring-04-di/spring-04-di.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-05-Autowired/spring-05-autowired.iml" filepath="$PROJECT_DIR$/spring-05-Autowired/spring-05-autowired.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-06-anno/spring-06-anno.iml" filepath="$PROJECT_DIR$/spring-06-anno/spring-06-anno.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-07-appconfig/spring-07-appconfig.iml" filepath="$PROJECT_DIR$/spring-07-appconfig/spring-07-appconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuang/spring-01-ioc1/spring-01-ioc1.iml" filepath="$PROJECT_DIR$/kuang/spring-01-ioc1/spring-01-ioc1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuang/spring-02-hellospring/spring-02-hellospring.iml" filepath="$PROJECT_DIR$/kuang/spring-02-hellospring/spring-02-hellospring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuang/spring-03-ioc2/spring-03-ioc2.iml" filepath="$PROJECT_DIR$/kuang/spring-03-ioc2/spring-03-ioc2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuang/spring-04-di/spring-04-di.iml" filepath="$PROJECT_DIR$/kuang/spring-04-di/spring-04-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuang/spring-05-Autowired/spring-05-autowired.iml" filepath="$PROJECT_DIR$/kuang/spring-05-Autowired/spring-05-autowired.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuang/spring-06-anno/spring-06-anno.iml" filepath="$PROJECT_DIR$/kuang/spring-06-anno/spring-06-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuang/spring-07-appconfig/spring-07-appconfig.iml" filepath="$PROJECT_DIR$/kuang/spring-07-appconfig/spring-07-appconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/spring-aop/spring-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mvc/spring-mvc.iml" filepath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-zlx.iml" filepath="$PROJECT_DIR$/spring-zlx.iml" />

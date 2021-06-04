@@ -5,14 +5,14 @@
     <file url="file://$PROJECT_DIR$/client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/database/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kuang/spring-01-ioc1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kuang/spring-02-hellospring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kuang/spring-03-ioc2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kuang/spring-04-di/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kuang/spring-05-Autowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kuang/spring-06-anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kuang/spring-07-appconfig/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-01-ioc1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-02-hellospring/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-03-ioc2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-04-di/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-05-Autowired/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-06-anno/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-07-appconfig/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-aop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-aop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc/src/main/java" charset="UTF-8" />

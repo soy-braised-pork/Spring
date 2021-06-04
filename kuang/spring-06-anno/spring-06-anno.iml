@@ -5,16 +5,15 @@
       <configuration>
         <webroots />
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$/../../spring-06-anno/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../spring-06-anno/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Beans" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/beans.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+        <fileset id="fileset" name="ApplicationContext" removed="false">
+          <file>file://$MODULE_DIR$/../../spring-06-anno/src/main/resources/applicationContext.xml</file>
         </fileset>
       </configuration>
     </facet>
