@@ -13,12 +13,15 @@
     <file url="file://$PROJECT_DIR$/kuang/spring-06-anno/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kuang/spring-07-appconfig/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kuang/spring-08-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kuang/spring-09-aop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-09-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-10-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-aop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-aop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -9,7 +9,6 @@
          https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-
     <!--p命名空间注入，可以直接注入属性的值：property-->
     <bean id="user" class="com.zlx.easy.User" p:age="11" p:username="zlx"/>
 

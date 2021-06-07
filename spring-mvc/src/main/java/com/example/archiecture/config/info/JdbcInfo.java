@@ -1,9 +1,7 @@
 package com.example.archiecture.config.info;
 
 
-
 import lombok.Value;
-
 
 
 //mysql的配置文件管理在spring的容器中，从而在程序中优雅的使用。
@@ -30,12 +28,28 @@ public class JdbcInfo {
     private String connectionProperties;
 
 
+    public String getUrl() {
+        return url;
+    }
 
-    public String getUrl(){return url;}
-    public String getDriver(){return driver;}
-    public String getUsername(){return username;}
-    public String getPassword(){return password;}
-    public String getFilters(){return filters;}
-    public String getConnectionProperties(){return connectionProperties;}
+    public String getDriver() {
+        return driver;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getFilters() {
+        return filters;
+    }
+
+    public String getConnectionProperties() {
+        return connectionProperties;
+    }
 
 }

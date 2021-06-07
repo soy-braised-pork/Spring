@@ -15,7 +15,7 @@ public class MyConfig {
     @Bean //相当于bean标签
     //方法名=id   返回值=class属性
 //    public User getUser(){
-      public User user(){
+    public User user() {
         return new User();  //就是返回到要注入到bean的对象
     }
 }

@@ -8,7 +8,7 @@ public class Student {
     private Address address;
     private String[] books;
     private List<String> hobbys;
-    private Map<String,String> card;
+    private Map<String, String> card;
     private Set<String> games;
     private String wife;
     private Properties info;
@@ -80,15 +80,15 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +'\n'+
-                " name='" + name + '\'' +'\n'+
-                " address=" + address.toString() + '\n'+
-                " books=" + Arrays.toString(books) +'\n'+
-                " hobbys=" + hobbys +'\n'+
-                " card=" + card +'\n'+
-                " games=" + games +'\n'+
-                " wife='" + wife + '\'' +'\n'+
-                " info=" + info +'\n'+
+        return "Student{" + '\n' +
+                " name='" + name + '\'' + '\n' +
+                " address=" + address.toString() + '\n' +
+                " books=" + Arrays.toString(books) + '\n' +
+                " hobbys=" + hobbys + '\n' +
+                " card=" + card + '\n' +
+                " games=" + games + '\n' +
+                " wife='" + wife + '\'' + '\n' +
+                " info=" + info + '\n' +
                 '}';
     }
 }

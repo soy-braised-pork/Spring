@@ -9,7 +9,8 @@ public class User {
         this.username = username;
     }
 
-    public User(){}
+    public User() {
+    }
 
 
     public String getUsername() {

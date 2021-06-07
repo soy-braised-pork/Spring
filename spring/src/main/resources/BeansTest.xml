@@ -7,7 +7,7 @@
     <bean id="testEntity" class="com.zlx.easy.springcore.TestEntity">
         <!--属性赋值 以set方法为基础-->
         <constructor-arg index="0" value="ggg"/>
-<!--        <property name="msg" value="Hello World!"/>-->
+        <!--        <property name="msg" value="Hello World!"/>-->
     </bean>
 
     <bean id="testEntity1" class="com.zlx.easy.springcore.TestEntity">

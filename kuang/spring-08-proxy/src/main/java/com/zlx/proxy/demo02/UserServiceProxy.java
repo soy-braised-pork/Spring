@@ -1,13 +1,13 @@
 package com.zlx.proxy.demo02;
 
-public class UserServiceProxy implements UserService{
+public class UserServiceProxy implements UserService {
 
 
     private UserServiceImpl userServiceImpl;
 
 
-    public void setUserServiceImpl(UserServiceImpl userServiceImpl){
-        this.userServiceImpl=userServiceImpl;
+    public void setUserServiceImpl(UserServiceImpl userServiceImpl) {
+        this.userServiceImpl = userServiceImpl;
     }
 
     @Override
@@ -28,7 +28,7 @@ public class UserServiceProxy implements UserService{
 
 
     //日志方法
-    public void log(String msg){
-        System.out.println("[DeBug]  使用了"+msg+"方法");
+    public void log(String msg) {
+        System.out.println("[DeBug]  使用了" + msg + "方法");
     }
 }

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class Clazz {
 
 
-    public void clazzPrint(){
+    public void clazzPrint() {
         System.out.println("printClazz");
     }
 }

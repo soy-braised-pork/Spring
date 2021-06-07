@@ -19,12 +19,12 @@ public class UserServiceImpl {
     @Autowired
     private TransactionTemplate txTemple;
 
-    public User findUserByName(String username){
+    public User findUserByName(String username) {
         return userDao.findByName(username);
     }
 
-    public User findUserByNameAndPassword(String username,String password){
-        return userDao.findByNameAndPassword(username,password);
+    public User findUserByNameAndPassword(String username, String password) {
+        return userDao.findByNameAndPassword(username, password);
     }
 
     /**

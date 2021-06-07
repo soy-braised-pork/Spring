@@ -1,6 +1,6 @@
 package com.zlx.proxy.demo02;
 
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     @Override
     public void add() {
         System.out.println("增加啦~");

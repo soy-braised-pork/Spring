@@ -1,6 +1,6 @@
 package com.zlx.proxy.demo01;
 
-public class Proxy implements Rent{
+public class Proxy implements Rent {
 
     @Override
     public void rent() {

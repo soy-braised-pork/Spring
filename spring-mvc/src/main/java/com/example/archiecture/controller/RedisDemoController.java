@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 public class RedisDemoController {
 
     @Autowired
-    private RedisTemplate<String,String> redisTemplate;
+    private RedisTemplate<String, String> redisTemplate;
 
 
 }

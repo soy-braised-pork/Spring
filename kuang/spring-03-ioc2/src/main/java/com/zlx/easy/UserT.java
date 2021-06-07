@@ -4,10 +4,9 @@ public class UserT {
     private String name;
 
     //使用无参构造创建对象，默认
-    public UserT(){
+    public UserT() {
         System.out.println("UserT的无参构造！");
     }
-
 
 
     public String getName() {
@@ -19,8 +18,8 @@ public class UserT {
     }
 
 
-    public void show(){
-        System.out.println("name="+name);
+    public void show() {
+        System.out.println("name=" + name);
     }
 }
 

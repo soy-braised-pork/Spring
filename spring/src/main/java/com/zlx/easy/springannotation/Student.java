@@ -19,7 +19,7 @@ public class Student {
         this.clazz = clazz;
     }
 
-    public void clazzPrint(){
+    public void clazzPrint() {
         clazz.clazzPrint();
     }
 }

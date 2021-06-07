@@ -9,9 +9,9 @@ public class AnnotationTestMain {
     public static void main(String[] args) {
 
 
-    ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
+        ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
 
-    Student student=context.getBean("student",Student.class);
-    student.getClazz().clazzPrint();
+        Student student = context.getBean("student", Student.class);
+        student.getClazz().clazzPrint();
     }
 }

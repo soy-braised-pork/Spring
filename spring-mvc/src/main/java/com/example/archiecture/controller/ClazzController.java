@@ -1,7 +1,6 @@
 package com.example.archiecture.controller;
 
 
-
 @Controller //表示在tomcat启动的时候，把这个类作为一个控制器加载到Spring的Bean工厂，如果不加，就是一个普通的类，和Spring没有半毛钱关系
 public class ClazzController {
 
@@ -16,7 +15,7 @@ public class ClazzController {
     @ResponseBody
     public String registry(@RequestBody Clazz clazz) {
         int result = clazzService.insertClazz(clazz);
-        if (result != 0){
+        if (result != 0) {
             return "sucess insert" + clazz.getClazzName();
         }
         return "添加班级失败";

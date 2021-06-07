@@ -6,9 +6,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestMain {
     public static void main(String[] args) {
 
-        ApplicationContext context= new ClassPathXmlApplicationContext("BeansTest.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("BeansTest.xml");
 
-        TestEntity testEntity=context.getBean("testEntity",TestEntity.class);
+        TestEntity testEntity = context.getBean("testEntity", TestEntity.class);
 
 //        testEntity.setMsg("sss");
 

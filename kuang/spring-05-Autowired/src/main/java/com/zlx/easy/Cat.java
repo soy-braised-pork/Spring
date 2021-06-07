@@ -2,7 +2,7 @@ package com.zlx.easy;
 
 public class Cat {
 
-    public void shout(){
+    public void shout() {
         System.out.println("miao!");
     }
 }

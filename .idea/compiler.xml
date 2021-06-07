@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="server" />
-        <module name="spring-mvc" />
         <module name="spring-02-hellospring" />
         <module name="spring-04-di" />
         <module name="spring-05-autowired" />
@@ -25,6 +24,19 @@
         <module name="api" />
         <module name="spring-01-ioc1" />
       </profile>
+      <profile name="Annotation profile for demo" enabled="true">
+        <sourceOutputDir name="spring-aop/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="spring-aop/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sprin-10-mybatis" />
+      </profile>
+      <profile name="Annotation profile for spring-10-mybatis" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-mvc" />
+        <module name="spring-aop" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="8" />
@@ -32,6 +44,7 @@
       <module name="database" target="8" />
       <module name="framework" target="8" />
       <module name="server" target="8" />
+      <module name="sprin-10-mybatis" target="1.8" />
       <module name="spring" target="8" />
       <module name="spring-01-ioc1" target="8" />
       <module name="spring-02-hellospring" target="8" />
@@ -43,8 +56,9 @@
       <module name="spring-08-proxy" target="8" />
       <module name="spring-08-proxy1" target="8" />
       <module name="spring-09-aop" target="8" />
+      <module name="spring-10-mybatis" target="8" />
       <module name="spring-aop" target="1.8" />
-      <module name="spring-mvc" target="1.8" />
+      <module name="spring-mvc" target="1.5" />
       <module name="spring-zlx" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -55,6 +69,7 @@
       <module name="database" options="-parameters" />
       <module name="framework" options="-parameters" />
       <module name="server" options="-parameters" />
+      <module name="sprin-10-mybatis" options="-parameters" />
       <module name="spring" options="-parameters" />
       <module name="spring-01-ioc1" options="-parameters" />
       <module name="spring-02-hellospring" options="-parameters" />
@@ -66,6 +81,7 @@
       <module name="spring-08-proxy" options="-parameters" />
       <module name="spring-08-proxy1" options="-parameters" />
       <module name="spring-09-aop" options="-parameters" />
+      <module name="spring-10-mybatis" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="spring-zlx" options="" />

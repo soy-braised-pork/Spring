@@ -11,7 +11,7 @@
 
     <bean id="student" class="com.zlx.easy.Student">
         <!-- 普通值注入，value-->
-<!--        <property name="name" value="zlx"/>-->
+        <!--        <property name="name" value="zlx"/>-->
         <property name="name">
             <value>zlx</value>
         </property>
@@ -64,7 +64,6 @@
                 <prop key="url">www.zlx.com</prop>
             </props>
         </property>
-
 
 
     </bean>

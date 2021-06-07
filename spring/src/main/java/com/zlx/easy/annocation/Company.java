@@ -9,7 +9,7 @@ public class Company {
     @Autowired
     private UserServiceImpl userService;
 
-    public void getUserName(){
+    public void getUserName() {
         userService.printName();
     }
 }

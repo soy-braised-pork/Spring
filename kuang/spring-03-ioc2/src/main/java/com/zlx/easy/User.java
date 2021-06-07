@@ -9,8 +9,8 @@ public class User {
 //    }
 
     //使用有参构造创建对象
-    public User(String name){
-        this.name=name;
+    public User(String name) {
+        this.name = name;
     }
 
     public String getName() {
@@ -22,7 +22,7 @@ public class User {
     }
 
 
-    public void show(){
-        System.out.println("name="+name);
+    public void show() {
+        System.out.println("name=" + name);
     }
 }

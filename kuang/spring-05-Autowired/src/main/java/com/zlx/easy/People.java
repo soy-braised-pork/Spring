@@ -11,8 +11,7 @@ import javax.annotation.Resource;
  * 都是用来自动装配，都可以放在属性字段上
  * @Autowired 通过byname来实现
  * @Resource 默认通过byname的方式实现，如果找不到，则通过byType
- *执行顺序不同
- *
+ * 执行顺序不同
  */
 
 

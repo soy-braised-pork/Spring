@@ -1,14 +1,12 @@
 package com.example.archiecture.config;
 
 
-
-
 @Configuration //定义配置类，可替换xml配置文件
 @EnableCacaing
 public class CacheConfig {
 
     @Bean
-    public LettuceConnectionFactory redisConnectionFactory(){
+    public LettuceConnectionFactory redisConnectionFactory() {
         return new LettuceConnectionFactory(new RedisStandaloneConfiguration("localhost", 6379));
     }
 
