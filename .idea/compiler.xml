@@ -21,7 +21,14 @@
         <module name="client" />
         <module name="spring-07-appconfig" />
         <module name="api" />
+        <module name="spring-aop" />
         <module name="spring-01-ioc1" />
+      </profile>
+      <profile name="Annotation profile for demo" enabled="true">
+        <sourceOutputDir name="spring-aop/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="spring-aop/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-zlx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -62,7 +69,7 @@
       <module name="spring-08-proxy" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
-      <module name="spring-zlx" options="" />
+      <module name="spring-zlx" options="-parameters" />
     </option>
   </component>
 </project>
