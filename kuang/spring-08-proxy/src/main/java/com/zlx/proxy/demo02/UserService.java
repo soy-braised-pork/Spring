@@ -1,4 +1,4 @@
-package com.zlx.demo2;
+package com.zlx.proxy.demo02;
 
 public interface UserService {
 
