@@ -8,9 +8,9 @@ import java.lang.reflect.Proxy;
 public class ProxyInvocationHandler implements InvocationHandler {
 
     //被代理的接口
-    private Rent rent;
+    private Host rent;
 
-    public void setRent(Rent rent) {
+    public void setRent(Host rent) {
         this.rent = rent;
     }
 

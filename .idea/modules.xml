@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sprin-10-mybatis.iml" filepath="$PROJECT_DIR$/sprin-10-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/kuang/spring-01-ioc1/spring-01-ioc1.iml" filepath="$PROJECT_DIR$/kuang/spring-01-ioc1/spring-01-ioc1.iml" />
       <module fileurl="file://$PROJECT_DIR$/kuang/spring-02-hellospring/spring-02-hellospring.iml" filepath="$PROJECT_DIR$/kuang/spring-02-hellospring/spring-02-hellospring.iml" />
@@ -19,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/kuang/spring-08-proxy/spring-08-proxy.iml" filepath="$PROJECT_DIR$/kuang/spring-08-proxy/spring-08-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/kuang/spring-08-proxy1/spring-08-proxy1.iml" filepath="$PROJECT_DIR$/kuang/spring-08-proxy1/spring-08-proxy1.iml" />
       <module fileurl="file://$PROJECT_DIR$/kuang/spring-09-aop/spring-09-aop.iml" filepath="$PROJECT_DIR$/kuang/spring-09-aop/spring-09-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuang/spring-10-mybatis/spring-10-mybatis.iml" filepath="$PROJECT_DIR$/kuang/spring-10-mybatis/spring-10-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-11-transaction/spring-11-transaction.iml" filepath="$PROJECT_DIR$/spring-11-transaction/spring-11-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/spring-aop/spring-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mvc/spring-mvc.iml" filepath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-zlx.iml" filepath="$PROJECT_DIR$/spring-zlx.iml" />
